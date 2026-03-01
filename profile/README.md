@@ -189,7 +189,7 @@ If you're the type who reads the RFC before writing code, this is for you.
 
 These are real design decisions we're working through right now. If you have opinions - especially if you've built multi-agent systems and hit these walls - we'd genuinely love to hear from you.
 
-[Open an issue](https://github.com/akashikprotocol/spec/issues) or [start a discussion](https://github.com/orgs/akashikprotocol/discussions).
+[Open an issue](https://github.com/akashikprotocol/spec/issues).
 
 **1. Relation Weights - Define or Remove?**
 Memory units can declare relationships (supports, contradicts, depends-on, etc.). Should relationships carry a `weight` (0.0-1.0) with formally defined semantics, or keep things simple and stay binary?
