@@ -33,20 +33,7 @@ That's what the Akashik Protocol is for.
 
 Think of it as the missing layer in the agent stack:
 
-```
-┌──────────────────────────────────┐
-│        Application Layer          │  Your multi-agent system
-├──────────────────────────────────┤
-│       Akashik Protocol            │  Shared memory & coordination
-│  (REGISTER, RECORD, ATTUNE,      │
-│   DETECT, MERGE, SUBSCRIBE,      │
-│   REPLAY, COMPACT)               │
-├──────────────────────────────────┤
-│    Communication Layer            │  MCP / A2A / Direct SDK
-├──────────────────────────────────┤
-│      Transport Layer              │  HTTP / WebSocket / gRPC / stdio
-└──────────────────────────────────┘
-```
+![Agent Stack](images/agent-stack.png)
 
 **MCP** handles agent-to-tool connections.
 **A2A** handles agent-to-agent communication.
