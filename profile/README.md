@@ -33,7 +33,9 @@ That's what the Akashik Protocol is for.
 
 Think of it as the missing layer in the agent stack:
 
-![Agent Stack](images/agent-stack-01.png)
+<p align="center">
+  <img src="images/agent-stack-02.png" alt="Agent Stack" style="max-width: 100%; height: auto;" />
+</p>
 
 **MCP** handles agent-to-tool connections.
 **A2A** handles agent-to-agent communication.
